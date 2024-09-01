@@ -1,0 +1,136 @@
+<!DOCTYPE  html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no; target-densitydpi=device-dpi"/>
+		<meta name="keywords" content="Shaman Creative, Mobile Application, Film, Moving Image, Animation, Photography, Installation, Urban Corroboree" />
+		<meta name="description" content="Award winning installation, exhibition, urban corroboree and marketing campaign for City Of Sydney." />
+		<title>Shaman Creative - Red Room</title>
+		<link rel="stylesheet" type="text/css" href="main.css" media="screen">
+		<link rel="icon" type="image/ico" href="http://www.shamancreative.com/favicon.ico"/>
+		<script type="text/javascript" src="js/CreateHTML5Elements.js"></script>
+	</head>
+	<body>
+		<script>
+			( function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id))
+						return;
+					js = d.createElement(s);
+					js.id = id;
+					js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+					fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+		</script>
+		<script>
+			! function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+				if (!d.getElementById(id)) {
+					js = d.createElement(s);
+					js.id = id;
+					js.src = p + '://platform.twitter.com/widgets.js';
+					fjs.parentNode.insertBefore(js, fjs);
+				}
+			}(document, 'script', 'twitter-wjs');
+		</script>
+		<div id="wrapper">
+			<header>
+				<a href="aboutus.html" class="logo">
+					 <img src="images/logo_off.jpg" alt="Shaman Creative" >
+					 <h1>Shaman Creative</h1>
+				</a>
+				<nav id="main">
+					<ul>
+					<h5>Navigation</h5>
+						<li class="movingimage">
+							<a href="movingimage.html"> <h6>Moving Image</h6> </a>
+						</li>
+						<li class="mobileapp">
+							<a href="mobileapp.html"> <h6>Mobile App</h6> </a>
+						</li>
+						<li class="photography">
+							<a href="photography.html"> <h6>Photography</h6> </a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<div class="backbutton">
+				<a href="photography.html"> <img src="images/backbutton_off.jpg"></a>
+			</div>
+			<article class="preload">
+				<h1>Red Room</h1>
+				<p>
+					Red has long been associated with emotions that stir the blood. Anger, passion and love are all captured in this evocative exhibition and limited postcard print as promotion for some of the best wining and dining venues in Sydney: <strong>Young Alfred, CAFE Sydney and Quay Bar</strong>
+				</p>
+				<div id="frame3">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<img src="flexslider/images/redroom/2.jpg" class="preload"/>
+							</li>
+							<li>
+								<img src="flexslider/images/redroom/3.jpg" />
+							</li>
+							<li>
+								<img src="flexslider/images/redroom/4.jpg" />
+							</li>
+							<li>
+								<img src="flexslider/images/redroom/5.jpg"/>
+							</li>
+							<li>
+								<img src="flexslider/images/redroom/6.jpg" />
+							</li>
+							<li>
+								<img src="flexslider/images/redroom/7.jpg" />
+							</li>
+							<li>
+								<img src="flexslider/images/redroom/8.jpg"/>
+							</li>
+							<li>
+								<img src="flexslider/images/redroom/9.jpg" />
+							</li>
+							<li>
+								<img src="flexslider/images/redroom/10.jpg" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</article>
+			<footer class="preload">
+				<nav class="fbtwitter">
+					<ul>
+						<li class="fb-holder">
+							<div class="fb-like" data-href="http://www.facebook.com/ShamanCreative/" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false" data-colorscheme="dark"></div>
+						</li>
+						<li class="twitter-holder">
+							<div class="twitter">
+								<a href="https://twitter.com/share" class="twitter-share-button" data-via="ShamanCreative">Tweet</a>
+							</div>
+						</li>
+					</ul>
+				</nav><!-- end of fbtwitter-->
+				<p>Copyright © 2008 ShAMAN Creative</p>
+				<p>contact:
+					<a href="mailto:infoMIUshamancreativeDOTcom" 
+						onclick = "this.href=this.href.replace(/MIU/,'&#64;').replace(/DOT/,'&#46;')"> info<span class="miu">shamancreative.com</span>
+					</a>
+				</p>
+			</footer>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="jquery.flexslider.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(window).load(function() {
+				$('.flexslider').flexslider();
+			});
+		</script>
+		<script type="text/javascript">
+			// javascript code
+			$(document).ready(function() {
+				setTimeout(function() {
+					$('flexslider/images/redroom/2.jpg').fadeIn(500);
+				}, 5000);
+			});
+		</script>
+	</body>
+</html>

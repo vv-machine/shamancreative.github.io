@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family: 'loved_by_the_kingregular';
+    src: url('loved_by_the_king-webfont.eot');
+    src: url('loved_by_the_king-webfont.eot?#iefix') format('embedded-opentype'),
+         url('loved_by_the_king-webfont.woff') format('woff'),
+         url('loved_by_the_king-webfont.ttf') format('truetype'),
+         url('loved_by_the_king-webfont.svg#loved_by_the_kingregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'where_stars_shine_the_brighRg';
+    src: url('where_stars_shine_the_brightest-webfont.eot');
+    src: url('where_stars_shine_the_brightest-webfont.eot?#iefix') format('embedded-opentype'),
+         url('where_stars_shine_the_brightest-webfont.woff') format('woff'),
+         url('where_stars_shine_the_brightest-webfont.ttf') format('truetype'),
+         url('where_stars_shine_the_brightest-webfont.svg#where_stars_shine_the_brighRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aswirlvelvetmedium';
+    src: url('aswirlvelvet-webfont.eot');
+    src: url('aswirlvelvet-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aswirlvelvet-webfont.woff') format('woff'),
+         url('aswirlvelvet-webfont.ttf') format('truetype'),
+         url('aswirlvelvet-webfont.svg#aswirlvelvetmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ColaborateThinRegular';
+    src: url('ColabThi-webfont.eot');
+    src: url('ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ColabThi-webfont.woff') format('woff'),
+         url('ColabThi-webfont.ttf') format('truetype'),
+         url('ColabThi-webfont.svg#ColaborateThinRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ColaborateLightRegular';
+    src: url('ColabLig-webfont.eot');
+    src: url('ColabLig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ColabLig-webfont.woff') format('woff'),
+         url('ColabLig-webfont.ttf') format('truetype'),
+         url('ColabLig-webfont.svg#ColaborateLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ColaborateRegular';
+    src: url('ColabReg-webfont.eot');
+    src: url('ColabReg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ColabReg-webfont.woff') format('woff'),
+         url('ColabReg-webfont.ttf') format('truetype'),
+         url('ColabReg-webfont.svg#ColaborateRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ColaborateMediumRegular';
+    src: url('ColabMed-webfont.eot');
+    src: url('ColabMed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ColabMed-webfont.woff') format('woff'),
+         url('ColabMed-webfont.ttf') format('truetype'),
+         url('ColabMed-webfont.svg#ColaborateMediumRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ColaborateBoldRegular';
+    src: url('ColabBol-webfont.eot');
+    src: url('ColabBol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ColabBol-webfont.woff') format('woff'),
+         url('ColabBol-webfont.ttf') format('truetype'),
+         url('ColabBol-webfont.svg#ColaborateBoldRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

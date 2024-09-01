@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:/scripts/
+Disallow:/js/
+Disallow:/zohoverify/
+Sitemap: http://www.shamancreative.com/sitemap.xml
